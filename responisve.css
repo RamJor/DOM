@@ -1,0 +1,35 @@
+
+@media (max-width: 1220px) {
+     
+    .dom{
+        padding: 10rem 20rem;
+    }
+    }
+    
+   /*Tablet*/
+   @media(max-width: 768px) {
+      .dom{
+        padding: 8rem 10rem;
+      }
+   }
+
+    
+    
+    /*Mobile*/
+    @media (max-width: 425px) {
+        .encabezado h1{
+            font-size: 7rem;
+        }
+        .dom{
+            padding: 0;
+            margin: 1rem;
+        }
+        .dom__img{
+            padding: 0;
+        }
+        footer p {
+            font-size: 5rem;
+            padding: 5rem;
+            margin-top: 8rem;
+        }
+    }
